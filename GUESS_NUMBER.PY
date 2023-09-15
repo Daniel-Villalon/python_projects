@@ -12,4 +12,4 @@ def guess(x):
   print(f"yay you guess the correct number:{random_num} ")
 
 
-guess(5)
+guess(6)
