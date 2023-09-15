@@ -15,7 +15,7 @@ def hangman():
   word_letters = set(word) # breaks the word into letters 
   alphabet = set(string.ascii_uppercase) # set if upper case letter is the alphabet 
   used_letters = set() # used letter from the user_input
-  lives = 5
+  lives = 7
 
 
   #getting imput
