@@ -1,0 +1,82 @@
+/* Style for the body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: beige;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Style for the header */
+h1 {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  
+}
+
+/* Style for the form container */
+form {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+/* Style for labels and input fields */
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Style for the result container */
+p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+/* Style for the "Next Question" link */
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: underline;
+
+}
+
+.box{
+  position: center;
+  top: 50%;
+  left: 10%;
+  background-color: rgb(218, 209, 151);
+}

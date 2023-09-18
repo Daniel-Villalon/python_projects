@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Citizenship Game</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <h1>Citizenship Game</h1>
+    <p>Question: {{ question }}</p>
+    <form class='box' action="/check_answer" method="post">
+        <label for="user_answer">Your answer:</label>
+        <input type="text" id="user_answer" name="user_answer">
+        <input type="submit" value="Submit">
+    </form>
+    <p>Answer: {{answer}}</p>
+    <p>Score: {{ score }}</p>
+</body>
+</html>
